@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.flipkart.BasicTestCases.VerifyLogin">
+        <methods>
+          <include name="nameBefore"/>
+          <include name="VerifyValidLogin"/>
+        </methods>
+      </class> <!-- com.flipkart.BasicTestCases.VerifyLogin -->
+      <class name="com.flipkart.BasicTestCases.VerifyLoginBoxClose">
+        <methods>
+          <include name="VerifyEscClose"/>
+          <include name="nameBefore"/>
+          <include name="VerifyClickClose"/>
+        </methods>
+      </class> <!-- com.flipkart.BasicTestCases.VerifyLoginBoxClose -->
+      <class name="com.flipkart.PageFactoryTestCases.VerifyLoginPF">
+        <methods>
+          <include name="VerifyValidLogin"/>
+          <include name="nameBefore"/>
+        </methods>
+      </class> <!-- com.flipkart.PageFactoryTestCases.VerifyLoginPF -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-07-08T15:21:54Z" name="Suite" finished-at="2018-07-08T15:22:44Z" duration-ms="50203">
+    <groups>
+    </groups>
+    <test started-at="2018-07-08T15:21:54Z" name="Test" finished-at="2018-07-08T15:22:44Z" duration-ms="50203">
+      <class name="com.flipkart.TestCases.VerifyLoginBoxClose">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.flipkart.TestCases.VerifyLoginBoxClose@47faa49c]" started-at="2018-07-08T15:22:14Z" name="nameBefore" finished-at="2018-07-08T15:22:14Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.TestCases.VerifyLoginBoxClose.VerifyClickClose() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method signature="VerifyClickClose()[pri:0, instance:com.flipkart.TestCases.VerifyLoginBoxClose@47faa49c]" started-at="2018-07-08T15:22:14Z" name="VerifyClickClose" finished-at="2018-07-08T15:22:28Z" duration-ms="14528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClickClose -->
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.flipkart.TestCases.VerifyLoginBoxClose@47faa49c]" started-at="2018-07-08T15:22:28Z" name="nameBefore" finished-at="2018-07-08T15:22:28Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.TestCases.VerifyLoginBoxClose.VerifyEscClose()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method signature="VerifyEscClose()[pri:0, instance:com.flipkart.TestCases.VerifyLoginBoxClose@47faa49c]" started-at="2018-07-08T15:22:28Z" name="VerifyEscClose" finished-at="2018-07-08T15:22:44Z" duration-ms="15315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEscClose -->
+      </class> <!-- com.flipkart.TestCases.VerifyLoginBoxClose -->
+      <class name="com.flipkart.TestCases.VerifyLogin">
+        <test-method is-config="true" signature="nameBefore(java.lang.reflect.Method)[pri:0, instance:com.flipkart.TestCases.VerifyLogin@73e22a3d]" started-at="2018-07-08T15:21:54Z" name="nameBefore" finished-at="2018-07-08T15:21:54Z" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.flipkart.TestCases.VerifyLogin.VerifyValidLogin() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nameBefore -->
+        <test-method signature="VerifyValidLogin()[pri:0, instance:com.flipkart.TestCases.VerifyLogin@73e22a3d]" started-at="2018-07-08T15:21:54Z" name="VerifyValidLogin" finished-at="2018-07-08T15:22:14Z" duration-ms="20242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyValidLogin -->
+      </class> <!-- com.flipkart.TestCases.VerifyLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
